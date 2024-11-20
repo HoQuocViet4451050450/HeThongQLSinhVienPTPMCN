@@ -1,0 +1,86 @@
+﻿@model IEnumerable<ASPSTUDENT.Models.LopHoc>
+
+@{
+    ViewData["Title"] = "Lớp học";
+}
+@{
+    // Hiển thị thông báo thành công nếu có
+    if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+
+    // Hiển thị thông báo lỗi nếu có
+    if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+}
+
+<h1>Lớp học</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Tạo mới lớp học</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.MaLop)</th>
+            <th>@Html.DisplayNameFor(model => model.TenLop)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.MaLop)</td>
+                <td>@Html.DisplayFor(modelItem => item.TenLop)</td>
+                <td>
+                    <div class="action-box">
+                        <a asp-action="Edit" asp-route-id="@item.MaLop" class="btn btn-primary">Sửa</a> |
+                        <a asp-action="Details" asp-route-id="@item.MaLop" class="btn btn-info">Chi tiết</a> |
+                        <a asp-action="Delete" asp-route-id="@item.MaLop" class="btn btn-danger">Xóa</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    .action-box {
+        display: flex;
+        gap: 10px; /* Khoảng cách giữa các nút */
+    }
+
+    .action-box .btn {
+        padding: 5px 10px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .action-box .btn-primary {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .action-box .btn-info {
+        background-color: #17a2b8;
+        color: white;
+    }
+
+    .action-box .btn-danger {
+        background-color: #dc3545;
+        color: white;
+    }
+
+    .action-box .btn:hover {
+        opacity: 0.8;
+    }
+</style>
