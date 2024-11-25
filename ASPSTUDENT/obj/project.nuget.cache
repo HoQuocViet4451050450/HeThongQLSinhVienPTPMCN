@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xrEdWrPj9uA=",
+  "dgSpecHash": "dh3WoyO9Q80=",
   "success": true,
-  "projectFilePath": "C:\\Users\\FPTSHOP\\Desktop\\PTPMCN\\ASPSTUDENT\\ASPSTUDENT\\ASPSTUDENT.csproj",
+  "projectFilePath": "C:\\Users\\FPTSHOP\\Desktop\\Hệ thống quản lý sinh viên\\ASPSTUDENT\\ASPSTUDENT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FPTSHOP\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\FPTSHOP\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

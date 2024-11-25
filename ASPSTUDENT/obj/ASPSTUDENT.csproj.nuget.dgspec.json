@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FPTSHOP\\Desktop\\PTPMCN\\ASPSTUDENT\\ASPSTUDENT\\ASPSTUDENT.csproj": {}
+    "C:\\Users\\FPTSHOP\\Desktop\\Hệ thống quản lý sinh viên\\ASPSTUDENT\\ASPSTUDENT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FPTSHOP\\Desktop\\PTPMCN\\ASPSTUDENT\\ASPSTUDENT\\ASPSTUDENT.csproj": {
+    "C:\\Users\\FPTSHOP\\Desktop\\Hệ thống quản lý sinh viên\\ASPSTUDENT\\ASPSTUDENT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FPTSHOP\\Desktop\\PTPMCN\\ASPSTUDENT\\ASPSTUDENT\\ASPSTUDENT.csproj",
+        "projectUniqueName": "C:\\Users\\FPTSHOP\\Desktop\\Hệ thống quản lý sinh viên\\ASPSTUDENT\\ASPSTUDENT.csproj",
         "projectName": "ASPSTUDENT",
-        "projectPath": "C:\\Users\\FPTSHOP\\Desktop\\PTPMCN\\ASPSTUDENT\\ASPSTUDENT\\ASPSTUDENT.csproj",
+        "projectPath": "C:\\Users\\FPTSHOP\\Desktop\\Hệ thống quản lý sinh viên\\ASPSTUDENT\\ASPSTUDENT.csproj",
         "packagesPath": "C:\\Users\\FPTSHOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FPTSHOP\\Desktop\\PTPMCN\\ASPSTUDENT\\ASPSTUDENT\\obj\\",
+        "outputPath": "C:\\Users\\FPTSHOP\\Desktop\\Hệ thống quản lý sinh viên\\ASPSTUDENT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FPTSHOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
