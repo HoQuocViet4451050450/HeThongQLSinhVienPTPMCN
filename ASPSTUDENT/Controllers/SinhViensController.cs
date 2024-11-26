@@ -18,11 +18,26 @@ namespace ASPSTUDENT.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string sortOrder)
         {
-            var applicationDbContext = _context.SinhViens.Include(s => s.LopHoc);
-            return View(await applicationDbContext.ToListAsync());
+            // Xác định trạng thái sắp xếp
+            ViewData["GpaSortParam"] = sortOrder == "GPA_Asc" ? "GPA_Desc" : "GPA_Asc";
+
+            // Lấy dữ liệu sinh viên và bao gồm thông tin lớp học
+            var sinhViensQuery = _context.SinhViens.Include(s => s.LopHoc).AsQueryable();
+
+            // Áp dụng sắp xếp
+            sinhViensQuery = sortOrder switch
+            {
+                "GPA_Asc" => sinhViensQuery.OrderBy(s => s.GPA),
+                "GPA_Desc" => sinhViensQuery.OrderByDescending(s => s.GPA),
+                _ => sinhViensQuery
+            };
+
+            return View(await sinhViensQuery.ToListAsync());
         }
+
+
 
         //Detail
         public async Task<IActionResult> Details(string id)
