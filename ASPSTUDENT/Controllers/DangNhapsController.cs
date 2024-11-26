@@ -20,7 +20,6 @@ namespace ASPSTUDENT.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(string tenDangNhap, string matKhau)
         {
-            // Check if user exists with the provided credentials
             var nguoiDung = await _context.NguoiDungs
                 .FirstOrDefaultAsync(u => u.TenDangNhap == tenDangNhap && u.MatKhau == matKhau);
 
@@ -29,10 +28,12 @@ namespace ASPSTUDENT.Controllers
                 TempData["ErrorMessage"] = "Tên đăng nhập hoặc mật khẩu không đúng.";
                 return View("Index");
             }
-            else
-            {
-                return RedirectToAction("Index", "SinhViens");
-            }
+
+            // Lưu thông tin người dùng vào session
+            HttpContext.Session.SetString("LoaiNguoiDung", nguoiDung.LoaiNguoiDung);
+
+            return RedirectToAction("Index", "SinhViens");
         }
+
     }
 }

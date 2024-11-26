@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\views\\nguoidungs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\views\\nguoidungs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\views\\sinhviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\views\\sinhviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\views\\sinhviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\views\\sinhviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\controllers\\sinhvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\controllers\\sinhvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\controllers\\dangnhapscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\controllers\\dangnhapscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\views\\dangnhaps\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\views\\dangnhaps\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\controllers\\lophocscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\controllers\\lophocscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\controllers\\sinhvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\controllers\\sinhvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\views\\nguoidungs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\views\\nguoidungs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +45,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\views\\dangnhaps\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\views\\dangnhaps\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\models\\nhomtinnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,18 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\views\\nguoidungs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\views\\nguoidungs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\views\\sinhviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\views\\sinhviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\views\\nguoidungs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\views\\nguoidungs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -85,14 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\views\\nguoidungs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\views\\nguoidungs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\views\\nguoidungs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\views\\nguoidungs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\views\\sinhviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\views\\sinhviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\views\\sinhviens\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -145,10 +149,6 @@
       "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|c:\\users\\fptshop\\desktop\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\aspstudent\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80E9B8F1-FCE6-4B79-A036-FC87BD3B0B0C}|ASPSTUDENT\\ASPSTUDENT.csproj|solutionrelative:aspstudent\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -164,7 +164,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -172,93 +172,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\DangNhaps\\Index.cshtml",
-              "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\DangNhaps\\Index.cshtml",
-              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\DangNhaps\\Index.cshtml",
-              "RelativeToolTip": "ASPSTUDENT\\Views\\DangNhaps\\Index.cshtml",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T12:42:13.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "DangNhapsController.cs",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Controllers\\DangNhapsController.cs",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Controllers\\DangNhapsController.cs",
               "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Controllers\\DangNhapsController.cs",
               "RelativeToolTip": "ASPSTUDENT\\Controllers\\DangNhapsController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T12:41:14.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\SinhViens\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\SinhViens\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\SinhViens\\Edit.cshtml",
-              "RelativeToolTip": "ASPSTUDENT\\Views\\SinhViens\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T12:56:03.815Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\NguoiDungs\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\NguoiDungs\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\NguoiDungs\\Edit.cshtml",
-              "RelativeToolTip": "ASPSTUDENT\\Views\\NguoiDungs\\Edit.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T12:18:53.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ThanhVienNhom.cs",
-              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Models\\ThanhVienNhom.cs",
-              "RelativeDocumentMoniker": "ASPSTUDENT\\Models\\ThanhVienNhom.cs",
-              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Models\\ThanhVienNhom.cs",
-              "RelativeToolTip": "ASPSTUDENT\\Models\\ThanhVienNhom.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:15:29.748Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "NhomTinNhan.cs",
-              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Models\\NhomTinNhan.cs",
-              "RelativeDocumentMoniker": "ASPSTUDENT\\Models\\NhomTinNhan.cs",
-              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Models\\NhomTinNhan.cs",
-              "RelativeToolTip": "ASPSTUDENT\\Models\\NhomTinNhan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Title": "NguoiDungsController.cs",
+              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Controllers\\NguoiDungsController.cs",
+              "RelativeDocumentMoniker": "ASPSTUDENT\\Controllers\\NguoiDungsController.cs",
+              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Controllers\\NguoiDungsController.cs",
+              "RelativeToolTip": "ASPSTUDENT\\Controllers\\NguoiDungsController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAkwJIAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:14:39.809Z"
+              "WhenOpened": "2024-11-14T09:02:11.678Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NguoiDung.cs",
-              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Models\\NguoiDung.cs",
-              "RelativeDocumentMoniker": "ASPSTUDENT\\Models\\NguoiDung.cs",
-              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Models\\NguoiDung.cs",
-              "RelativeToolTip": "ASPSTUDENT\\Models\\NguoiDung.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBIAAABAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Program.cs",
+              "RelativeDocumentMoniker": "ASPSTUDENT\\Program.cs",
+              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Program.cs",
+              "RelativeToolTip": "ASPSTUDENT\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:14:16.908Z"
+              "WhenOpened": "2024-11-13T14:20:31.952Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\SinhViens\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\SinhViens\\Create.cshtml",
+              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\SinhViens\\Create.cshtml",
+              "RelativeToolTip": "ASPSTUDENT\\Views\\SinhViens\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T10:08:36.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\SinhViens\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\SinhViens\\Index.cshtml",
+              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\SinhViens\\Index.cshtml",
+              "RelativeToolTip": "ASPSTUDENT\\Views\\SinhViens\\Index.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T12:54:56.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\NguoiDungs\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\NguoiDungs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\NguoiDungs\\Index.cshtml",
+              "RelativeToolTip": "ASPSTUDENT\\Views\\NguoiDungs\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T12:18:57.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SinhViensController.cs",
+              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Controllers\\SinhViensController.cs",
+              "RelativeDocumentMoniker": "ASPSTUDENT\\Controllers\\SinhViensController.cs",
+              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Controllers\\SinhViensController.cs",
+              "RelativeToolTip": "ASPSTUDENT\\Controllers\\SinhViensController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAA7wDYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T09:37:20.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "LopHocsController.cs",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Controllers\\LopHocsController.cs",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Controllers\\LopHocsController.cs",
@@ -271,68 +276,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\NguoiDungs\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\NguoiDungs\\Create.cshtml",
+              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\NguoiDungs\\Create.cshtml",
+              "RelativeToolTip": "ASPSTUDENT\\Views\\NguoiDungs\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T09:16:37.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "SinhVien.cs",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Models\\SinhVien.cs",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Models\\SinhVien.cs",
               "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Models\\SinhVien.cs",
               "RelativeToolTip": "ASPSTUDENT\\Models\\SinhVien.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:15:04.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SinhViensController.cs",
-              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Controllers\\SinhViensController.cs",
-              "RelativeDocumentMoniker": "ASPSTUDENT\\Controllers\\SinhViensController.cs",
-              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Controllers\\SinhViensController.cs",
-              "RelativeToolTip": "ASPSTUDENT\\Controllers\\SinhViensController.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAAAGYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:37:20.882Z",
+              "WhenOpened": "2024-11-13T14:15:04.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\SinhViens\\Index.cshtml",
-              "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\SinhViens\\Index.cshtml",
-              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\SinhViens\\Index.cshtml",
-              "RelativeToolTip": "ASPSTUDENT\\Views\\SinhViens\\Index.cshtml",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T12:54:56.372Z"
+              "Title": "NguoiDung.cs",
+              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Models\\NguoiDung.cs",
+              "RelativeDocumentMoniker": "ASPSTUDENT\\Models\\NguoiDung.cs",
+              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Models\\NguoiDung.cs",
+              "RelativeToolTip": "ASPSTUDENT\\Models\\NguoiDung.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T14:14:16.908Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\NguoiDungs\\Index.cshtml",
-              "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\NguoiDungs\\Index.cshtml",
-              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\NguoiDungs\\Index.cshtml",
-              "RelativeToolTip": "ASPSTUDENT\\Views\\NguoiDungs\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T12:18:57.371Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "NguoiDungsController.cs",
-              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Controllers\\NguoiDungsController.cs",
-              "RelativeDocumentMoniker": "ASPSTUDENT\\Controllers\\NguoiDungsController.cs",
-              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Controllers\\NguoiDungsController.cs",
-              "RelativeToolTip": "ASPSTUDENT\\Controllers\\NguoiDungsController.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAswHoAAAAJAAAAAAAAAA==",
+              "Title": "NhomTinNhan.cs",
+              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Models\\NhomTinNhan.cs",
+              "RelativeDocumentMoniker": "ASPSTUDENT\\Models\\NhomTinNhan.cs",
+              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Models\\NhomTinNhan.cs",
+              "RelativeToolTip": "ASPSTUDENT\\Models\\NhomTinNhan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:02:11.678Z"
+              "WhenOpened": "2024-11-13T14:14:39.809Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "ThanhVienNhom.cs",
+              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Models\\ThanhVienNhom.cs",
+              "RelativeDocumentMoniker": "ASPSTUDENT\\Models\\ThanhVienNhom.cs",
+              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Models\\ThanhVienNhom.cs",
+              "RelativeToolTip": "ASPSTUDENT\\Models\\ThanhVienNhom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T14:15:29.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\NguoiDungs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\NguoiDungs\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\NguoiDungs\\Edit.cshtml",
+              "RelativeToolTip": "ASPSTUDENT\\Views\\NguoiDungs\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T12:18:53.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\SinhViens\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\SinhViens\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\SinhViens\\Edit.cshtml",
+              "RelativeToolTip": "ASPSTUDENT\\Views\\SinhViens\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T12:56:03.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\DangNhaps\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\DangNhaps\\Index.cshtml",
+              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\DangNhaps\\Index.cshtml",
+              "RelativeToolTip": "ASPSTUDENT\\Views\\DangNhaps\\Index.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T12:42:13.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\appsettings.json",
               "RelativeDocumentMoniker": "ASPSTUDENT\\appsettings.json",
@@ -344,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\LopHocs\\Index.cshtml",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\LopHocs\\Index.cshtml",
@@ -356,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\LopHocs\\Edit.cshtml",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\LopHocs\\Edit.cshtml",
@@ -368,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\LopHocs\\Details.cshtml",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\LopHocs\\Details.cshtml",
@@ -380,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\LopHocs\\Delete.cshtml",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\LopHocs\\Delete.cshtml",
@@ -392,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\LopHocs\\Create.cshtml",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\LopHocs\\Create.cshtml",
@@ -404,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\Shared\\_Layout.cshtml",
@@ -416,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\NguoiDungs\\Delete.cshtml",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\NguoiDungs\\Delete.cshtml",
@@ -428,31 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\SinhViens\\Create.cshtml",
-              "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\SinhViens\\Create.cshtml",
-              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\SinhViens\\Create.cshtml",
-              "RelativeToolTip": "ASPSTUDENT\\Views\\SinhViens\\Create.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T10:08:36.478Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\NguoiDungs\\Create.cshtml",
-              "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\NguoiDungs\\Create.cshtml",
-              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\NguoiDungs\\Create.cshtml",
-              "RelativeToolTip": "ASPSTUDENT\\Views\\NguoiDungs\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T09:16:37.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\SinhViens\\Details.cshtml",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\SinhViens\\Details.cshtml",
@@ -464,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\SinhViens\\Delete.cshtml",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\SinhViens\\Delete.cshtml",
@@ -476,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\NguoiDungs\\Details.cshtml",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\NguoiDungs\\Details.cshtml",
@@ -488,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\Home\\Index.cshtml",
@@ -500,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\Shared\\_Layout.cshtml.css",
@@ -512,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -524,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Data\\ApplicationDbContext.cs",
@@ -536,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Controllers\\HomeController.cs",
@@ -548,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "LopHoc.cs",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Models\\LopHoc.cs",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Models\\LopHoc.cs",
@@ -560,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "dbo.SinhViens.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ASPSTUDENT001/True/SqlTable/dbo.SinhViens.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ASPSTUDENT001/True/SqlTable/dbo.SinhViens.sql",
@@ -569,7 +588,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "dbo.LopHocs.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ASPSTUDENT001/True/SqlTable/dbo.LopHocs.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ASPSTUDENT001/True/SqlTable/dbo.LopHocs.sql",
@@ -578,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "TinNhan.cs",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Models\\TinNhan.cs",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Models\\TinNhan.cs",
@@ -603,18 +622,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 36,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Program.cs",
-              "RelativeDocumentMoniker": "ASPSTUDENT\\Program.cs",
-              "ToolTip": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Program.cs",
-              "RelativeToolTip": "ASPSTUDENT\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:20:31.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\FPTSHOP\\Desktop\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD sinh vi\u00EAn\\ASPSTUDENT\\Pages\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "ASPSTUDENT\\Pages\\_ValidationScriptsPartial.cshtml",

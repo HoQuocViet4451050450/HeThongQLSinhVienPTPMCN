@@ -54,6 +54,14 @@ namespace ASPSTUDENT.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("MaSinhVien,HoTen,NgaySinh,GioiTinh,SoDienThoai,MaLop,TongTinChi,GPA,TrangThai,QueQuan")] SinhVien sinhVien)
         {
+            // Kiểm tra quyền
+            var currentUser = HttpContext.Session.GetString("LoaiNguoiDung"); // Lấy loại người dùng từ Session
+            if (currentUser != "GiangVien") // Nếu không phải Giảng Viên
+            {
+                TempData["ErrorMessage"] = "Bạn không có quyền thực hiện chức năng này.";
+                return RedirectToAction("Index");
+            }
+
             try
             {
                 _context.Add(sinhVien);
@@ -76,6 +84,7 @@ namespace ASPSTUDENT.Controllers
                 return View(sinhVien);
             }
         }
+
 
 
         //Edit
