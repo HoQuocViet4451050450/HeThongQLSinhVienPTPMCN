@@ -33,7 +33,22 @@
             <th>@Html.DisplayNameFor(model => model.GioiTinh)</th>
             <th>@Html.DisplayNameFor(model => model.SoDienThoai)</th>
             <th>@Html.DisplayNameFor(model => model.TongTinChi)</th>
-            <th>@Html.DisplayNameFor(model => model.GPA)</th>
+            <th>
+                @Html.DisplayNameFor(model => model.GPA)   <a asp-action="Index" asp-route-sortOrder="@ViewData["GpaSortParam"]">
+                    @if (ViewData["GpaSortParam"]?.ToString() == "GPA_Asc")
+                    {
+                        <i class="fas fa-sort-up"></i> <!-- Icon mũi tên tăng dần -->
+                    }
+                    else if (ViewData["GpaSortParam"]?.ToString() == "GPA_Desc")
+                    {
+                        <i class="fas fa-sort-down"></i> <!-- Icon mũi tên giảm dần -->
+                    }
+                    else
+                    {
+                        <i class="fas fa-sort"></i> <!-- Icon mặc định -->
+                    }
+                </a>
+            </th>
             <th>@Html.DisplayNameFor(model => model.TrangThai)</th>
             <th>@Html.DisplayNameFor(model => model.QueQuan)</th>
             <th>@Html.DisplayNameFor(model => model.LopHoc)</th>
@@ -50,7 +65,7 @@
                 <td>@Html.DisplayFor(modelItem => item.GioiTinh)</td>
                 <td>@Html.DisplayFor(modelItem => item.SoDienThoai)</td>
                 <td>@Html.DisplayFor(modelItem => item.TongTinChi)</td>
-                <td>@Html.DisplayFor(modelItem => item.GPA)</td>
+                <td>@item.GPA</td>
                 <td>@Html.DisplayFor(modelItem => item.TrangThai)</td>
                 <td>@Html.DisplayFor(modelItem => item.QueQuan)</td>
                 <td>@Html.DisplayFor(modelItem => item.LopHoc.MaLop)</td>
