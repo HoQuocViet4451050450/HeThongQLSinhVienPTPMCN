@@ -101,17 +101,6 @@
             @RenderBody()
         </main>
     </div>
-    @if (HttpContext.Session.GetString("User") != null)
-{
-    <div>
-        <span>Xin chào, @HttpContext.Session.GetString("User")</span>
-        <a asp-controller="DangNhaps" asp-action="Logout" class="btn btn-danger">Đăng xuất</a>
-    </div>
-}
-else
-{
-    <a asp-controller="DangNhaps" asp-action="Index" class="btn btn-primary">Đăng nhập</a>
-}
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
