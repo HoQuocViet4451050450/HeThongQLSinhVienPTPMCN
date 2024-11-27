@@ -93,6 +93,11 @@
                 <li><a asp-controller="SinhViens" asp-action="Index">Quản lý sinh viên</a></li>
                 <li><a asp-controller="none" asp-action="Index">Thống kê sinh viên</a></li>
                 <li><a asp-controller="none" asp-action="Index">Trò chuyện</a></li>
+                <li>
+                    <form asp-controller="DangXuat" asp-action="Logout" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-link" style="color: white;">Đăng xuất</button>
+                    </form>
+                </li>
             </ul>
         </nav>
 
