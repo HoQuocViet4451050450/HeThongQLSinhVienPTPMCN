@@ -174,6 +174,25 @@ namespace ASPSTUDENT.Controllers
             }
             return RedirectToAction(nameof(Index));
         }
+        public async Task<IActionResult> Index(string searchQuery)
+        {
+            // Lấy danh sách sinh viên cùng lớp học
+            var sinhViens = _context.SinhViens.Include(s => s.LopHoc).AsQueryable();
+
+            // Nếu có từ khóa tìm kiếm, lọc dữ liệu
+            if (!string.IsNullOrEmpty(searchQuery))
+            {
+                sinhViens = sinhViens.Where(s =>
+                    s.MaSinhVien.Contains(searchQuery) ||
+                    s.HoTen.Contains(searchQuery) ||
+                    s.QueQuan.Contains(searchQuery));
+            } 
+
+            // Truyền từ khóa tìm kiếm để hiển thị lại trong giao diện
+            ViewBag.SearchQuery = searchQuery;
+
+            return View(await sinhViens.ToListAsync());
+        }
 
 
         private bool SinhVienExists(string id)
