@@ -133,7 +133,7 @@ namespace ASPSTUDENT.Controllers
         }
 
 
-
+           
         //Delete
         public async Task<IActionResult> Delete(string id)
         {
@@ -190,6 +190,8 @@ namespace ASPSTUDENT.Controllers
 
             // Truyền từ khóa tìm kiếm để hiển thị lại trong giao diện
             ViewBag.SearchQuery = searchQuery;
+
+
 
             return View(await sinhViens.ToListAsync());
         }
