@@ -3,6 +3,55 @@
 @{
     ViewData["Title"] = "Danh sách các sinh viên";
 }
+<!-- Form tìm kiếm -->
+<form method="get" action="/SinhViens/Index">
+    <input type="text" name="searchQuery" value="@ViewBag.SearchQuery" placeholder="Nhập từ khóa tìm kiếm..." />
+    <button type="submit">Tìm kiếm</button>
+</form>
+
+<!-- Hiển thị danh sách sinh viên -->
+<table class="table">
+    <thead>
+        <tr>
+            <th>Mã sinh viên</th>     
+            <th>Họ tên</th>
+            <th>Ngày sinh</th>
+            <th>Giới tính</th>
+            <th>Số điện thoại</th>
+            <th>Lớp học</th>
+            <th>Quê quán</th>
+            <th>Hành động</th>
+        </tr> 
+    </thead>
+    <tbody>
+        @if (Model.Any())
+        {
+            foreach (var sinhVien in Model)
+            {
+                <tr>
+                    <td>@sinhVien.MaSinhVien</td>
+                    <td>@sinhVien.HoTen</td>
+                    <td>@sinhVien.NgaySinh.ToString("dd/MM/yyyy")</td>
+                    <td>@sinhVien.GioiTinh</td>
+                    <td>@sinhVien.SoDienThoai</td>
+                    <td>@sinhVien.LopHoc.TenLop</td>
+                    <td>@sinhVien.QueQuan</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@sinhVien.MaSinhVien">Chi tiết</a> |
+                        <a asp-action="Edit" asp-route-id="@sinhVien.MaSinhVien">Sửa</a> |
+                        <a asp-action="Delete" asp-route-id="@sinhVien.MaSinhVien">Xóa</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="8" class="text-center">Không tìm thấy sinh viên nào.</td>
+            </tr>
+        }
+    </tbody>
+</table>
 @if (TempData["SuccessMessage"] != null)
 {
     <div class="alert alert-success">
