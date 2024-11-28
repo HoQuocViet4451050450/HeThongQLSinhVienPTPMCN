@@ -1,0 +1,177 @@
+﻿@model IEnumerable<SinhVien>
+
+@{
+    ViewData["Title"] = "Danh sách các sinh viên";
+}
+
+<!-- Thông báo thành công hoặc lỗi -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+<!-- Thêm Form tìm kiếm -->
+<form method="get" action="@Url.Action("Index")">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" name="searchString" placeholder="Tìm kiếm sinh viên..." value="@ViewData["SearchString"]" />
+        <button class="btn btn-primary" type="submit">Tìm kiếm</button>
+    </div>
+</form>
+
+<!-- Lấy loại người dùng từ Session -->
+@{
+    var loaiNguoiDung = Context.Session.GetString("LoaiNguoiDung");
+}
+
+<h1>Danh sách các sinh viên</h1>
+
+@if (loaiNguoiDung == "GiangVien")
+{
+    <p>
+        <a asp-action="Create" class="btn btn-success">Thêm sinh viên mới</a> |
+        <a asp-controller="LopHocs" asp-action="Index" class="btn btn-primary">Quản lý lớp học</a>
+    </p>
+}
+
+<!-- Bảng danh sách sinh viên -->
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.MaSinhVien)</th>
+            <th>@Html.DisplayNameFor(model => model.HoTen)</th>
+            <th>@Html.DisplayNameFor(model => model.NgaySinh)</th>
+            <th>@Html.DisplayNameFor(model => model.GioiTinh)</th>
+            <th>@Html.DisplayNameFor(model => model.SoDienThoai)</th>
+            <th>@Html.DisplayNameFor(model => model.TongTinChi)</th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["GpaSortParam"]">
+                    <span>@Html.DisplayNameFor(model => model.GPA)</span>
+                    @if (ViewData["GpaSortParam"]?.ToString() == "GPA_Asc")
+                    {
+                        <i class="fas fa-sort-up"></i>
+                    }
+                    else if (ViewData["GpaSortParam"]?.ToString() == "GPA_Desc")
+                    {
+                        <i class="fas fa-sort-down"></i>
+                    }
+                    else
+                    {
+                        <i class="fas fa-sort"></i>
+                    }
+                </a>
+            </th>
+
+            <th>@Html.DisplayNameFor(model => model.TrangThai)</th>
+            <th>@Html.DisplayNameFor(model => model.QueQuan)</th>
+            <th>@Html.DisplayNameFor(model => model.LopHoc)</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.MaSinhVien)</td>
+                <td>@Html.DisplayFor(modelItem => item.HoTen)</td>
+                <td>@Html.DisplayFor(modelItem => item.NgaySinh)</td>
+                <td>@Html.DisplayFor(modelItem => item.GioiTinh)</td>
+                <td>@Html.DisplayFor(modelItem => item.SoDienThoai)</td>
+                <td>@Html.DisplayFor(modelItem => item.TongTinChi)</td>
+                <td>@item.GPA</td>
+                <td>@Html.DisplayFor(modelItem => item.TrangThai)</td>
+                <td>@Html.DisplayFor(modelItem => item.QueQuan)</td>
+                <td>@Html.DisplayFor(modelItem => item.LopHoc.MaLop)</td>
+                <td>
+                    <div class="action-box">
+                        <a asp-action="Edit" asp-route-id="@item.MaSinhVien"
+                           class="btn btn-primary @(loaiNguoiDung == "SinhVien" ? "disabled" : "")">Sửa</a>
+                        <a asp-action="Details" asp-route-id="@item.MaSinhVien"
+                           class="btn btn-info @(loaiNguoiDung == "SinhVien" ? "disabled" : "")">Chi tiết</a>
+                        <a asp-action="Delete" asp-route-id="@item.MaSinhVien"
+                           class="btn btn-danger @(loaiNguoiDung == "SinhVien" ? "disabled" : "")">Xóa</a>
+                    </div>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    /* CSS cho phần tiêu đề với icon sắp xếp */
+    th a {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        text-decoration: none;
+        color: inherit;
+    }
+
+        th a:hover {
+            color: #007bff;
+        }
+
+        th a i {
+            font-size: 0.8em;
+        }
+
+    /* CSS cho các nút hành động */
+    .action-box {
+        display: flex;
+        gap: 10px;
+    }
+
+        .action-box .btn {
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: white;
+        }
+
+    .btn-primary {
+        background-color: #007bff;
+    }
+
+    .btn-info {
+        background-color: #17a2b8;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+    }
+
+    .btn:hover {
+        opacity: 0.8;
+    }
+    /* Tạo hiệu ứng cho nút bị vô hiệu hóa */
+    .btn.disabled,
+    .btn.disabled:hover {
+        pointer-events: none;
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+
+    .search-form {
+        display: flex;
+        gap: 5px;
+        margin-bottom: 15px; /* Space between form and table */
+    }
+
+    .search-input {
+        width: 150px; /* Make input field smaller */
+        padding: 5px;
+        font-size: 12px; /* Smaller text */
+    }
+
+    .search-form button {
+        padding: 5px 8px; /* Reduce padding to make button smaller */
+        font-size: 12px; /* Smaller text */
+        height: 30px; /* Adjust button height */
+    }
+
+
+
+</style>

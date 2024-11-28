@@ -1,0 +1,112 @@
+﻿@model IEnumerable<ASPSTUDENT.Models.NguoiDung>
+
+@{
+    ViewData["Title"] = "Danh sách các người dùng";
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+<!--Authentication-->
+@{
+    var loaiNguoiDung = Context.Session.GetString("LoaiNguoiDung");
+}
+
+<h1>Danh sách các người dùng</h1>
+@if (loaiNguoiDung == "GiangVien")
+{
+<p>
+    <a asp-action="Create" class="btn btn-success">Thêm người dùng mới</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.TenDangNhap)</th>
+            <th>@Html.DisplayNameFor(model => model.MatKhau)</th>
+            <th>@Html.DisplayNameFor(model => model.LoaiNguoiDung)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.TenDangNhap)</td>
+                <td>@Html.DisplayFor(modelItem => item.MatKhau)</td>
+                <td>@Html.DisplayFor(modelItem => item.LoaiNguoiDung)</td>
+                <td>
+                    <div class="action-box">
+                        <a asp-action="Edit" asp-route-id="@item.MaNguoiDung" class="btn btn-primary">Sửa</a> |
+                        <a asp-action="Details" asp-route-id="@item.MaNguoiDung" class="btn btn-info">Chi tiết</a> |
+                        <a asp-action="Delete" asp-route-id="@item.MaNguoiDung" class="btn btn-danger">Xóa</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    .action-box {
+        display: flex;
+        gap: 10px; /* Khoảng cách giữa các nút */
+    }
+
+    .action-box .btn {
+        padding: 5px 10px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .action-box .btn-primary {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .action-box .btn-info {
+        background-color: #17a2b8;
+        color: white;
+    }
+
+    .action-box .btn-danger {
+        background-color: #dc3545;
+        color: white;
+    }
+
+    .action-box .btn:hover {
+        opacity: 0.8;
+    }
+</style>
+}
+@if (loaiNguoiDung == "SinhVien")
+{
+    <h1 class="no-access-message">Bạn không có quyền xem danh sách các người dùng</h1>
+
+    <style>
+        .no-access-message {
+            color: #dc3545;
+            font-size: 18px;
+            font-weight: 600;
+            text-align: center;
+            background-color: #f8d7da;
+            padding: 12px 20px;
+            border-radius: 10px;
+            border: 1px solid #f5c6cb;
+            margin: 20px 0;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+}
