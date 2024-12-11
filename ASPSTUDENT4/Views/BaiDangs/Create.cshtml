@@ -1,0 +1,63 @@
+﻿@model ASPSTUDENT4.Models.BaiDang
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Tạo mới bài đăng</h1>
+
+<h4>BaiDang</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- MaNguoiDung không hiển thị nữa, vì lấy từ session -->
+
+            <div class="form-group">
+                <label asp-for="NoiDung" class="control-label"></label>
+                <input asp-for="NoiDung" class="form-control" />
+                <span asp-validation-for="NoiDung" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DuongDanAnh" class="control-label"></label>
+                <input asp-for="DuongDanAnh" class="form-control" />
+                <span asp-validation-for="DuongDanAnh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Preview Image:</label>
+                <div id="imagePreview">
+                    <!-- Hiển thị ảnh khi người dùng nhập vào DuongDanAnh -->
+                    <img id="previewImage" src="" alt="Preview" class="img-thumbnail" style="max-width: 150px; max-height: 150px; display: none;" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        document.querySelector('input[name="DuongDanAnh"]').addEventListener('input', function () {
+            var imageUrl = this.value;
+            var previewImage = document.getElementById('previewImage');
+            if (imageUrl) {
+                previewImage.src = imageUrl;
+                previewImage.style.display = 'block';
+            } else {
+                previewImage.style.display = 'none';
+            }
+        });
+    </script>
+}

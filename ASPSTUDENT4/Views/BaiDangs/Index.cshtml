@@ -1,0 +1,121 @@
+﻿@model IEnumerable<ASPSTUDENT4.Models.BaiDang>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Bài đăng</h1>
+
+<p>
+    <a asp-action="Create">Tạo mới bài đăng</a>
+</p>
+
+<div class="post-container">
+    @foreach (var item in Model)
+    {
+        <div class="post">
+            <div class="user-info">
+                <strong>@Html.DisplayFor(modelItem => item.NguoiDung.HoTen)</strong>
+            </div>
+            <div class="post-content">
+                <p class="content">@Html.DisplayFor(modelItem => item.NoiDung)</p>
+                <img src="@item.DuongDanAnh" alt="Image" class="post-image" />
+            </div>
+            <div class="post-footer">
+                <span>@Html.DisplayFor(modelItem => item.NgayTao)</span>
+                <a asp-action="Delete" asp-route-id="@item.MaBaiDang" class="delete-link">Xóa</a>
+                <a asp-controller="BinhLuans" asp-action="Create" asp-route-maBaiDang="@item.MaBaiDang">Bình luận</a>
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f7f6;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        padding: 20px 0;
+        background-color: #4CAF50;
+        margin-bottom: 20px;
+    }
+
+    p {
+        text-align: right;
+        margin-right: 20px;
+    }
+
+        p a {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+            p a:hover {
+                background-color: #45a049;
+            }
+
+    .post-container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .post {
+        background: #fff;
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .user-info {
+        font-size: 1.1em;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .post-content {
+        display: flex;
+        align-items: flex-start;
+        gap: 15px; /* Khoảng cách giữa nội dung và ảnh */
+    }
+
+        .post-content .content {
+            flex: 1; /* Nội dung chiếm toàn bộ không gian bên trái */
+            text-align: left;
+            color: #555;
+        }
+
+        .post-content .post-image {
+            max-width: 150px;
+            max-height: 150px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+    .post-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #999;
+    }
+
+        .post-footer .delete-link {
+            color: #d9534f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+            .post-footer .delete-link:hover {
+                text-decoration: underline;
+            }
+</style>

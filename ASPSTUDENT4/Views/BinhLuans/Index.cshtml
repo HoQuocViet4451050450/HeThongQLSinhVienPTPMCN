@@ -1,0 +1,71 @@
+﻿@model IEnumerable<ASPSTUDENT4.Models.BinhLuan>
+
+<h1>Bình luận</h1>
+
+<div class="comments-section">
+    @foreach (var item in Model)
+    {
+        <div class="comment">
+            <div class="comment-header">
+                <strong>@Html.DisplayFor(modelItem => item.NguoiDung.HoTen)</strong>
+                <span>@Html.DisplayFor(modelItem => item.NgayTao)</span>
+            </div>
+            <div class="comment-body">
+                <p>@Html.DisplayFor(modelItem => item.NoiDung)</p>
+                @if (!string.IsNullOrEmpty(item.DuongDanAnh))
+                {
+                    <img src="@item.DuongDanAnh" alt="Comment Image" class="comment-image" />
+                }
+            </div>
+            <div class="comment-footer">
+                <a asp-action="Delete" asp-route-id="@item.MaBinhLuan" class="delete-link">Xóa</a>
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    .comments-section {
+        margin: 20px auto;
+        max-width: 800px;
+    }
+
+    .comment {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+
+    .comment-header {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.9em;
+        color: #555;
+    }
+
+    .comment-body {
+        margin-top: 10px;
+    }
+
+    .comment-image {
+        max-width: 100%;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+
+    .comment-footer {
+        margin-top: 10px;
+        text-align: right;
+    }
+
+    .delete-link {
+        color: #e74c3c;
+        text-decoration: none;
+    }
+
+    .delete-link:hover {
+        text-decoration: underline;
+    }
+</style>

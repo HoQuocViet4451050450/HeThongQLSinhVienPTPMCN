@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HeThongHoTroHocTap(Version2).props" />
+</Project>
