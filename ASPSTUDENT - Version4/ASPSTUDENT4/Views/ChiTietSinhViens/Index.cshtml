@@ -1,0 +1,176 @@
+﻿@model IEnumerable<ASPSTUDENT4.Models.ChiTietSinhVien>
+
+@{
+    ViewData["Title"] = "Danh sách sinh viên";
+}
+
+<!-- Lấy loại người dùng từ Session -->
+@{
+    var loaiNguoiDung = Context.Session.GetString("LoaiNguoiDung");
+}
+
+<h1>Danh sách sinh viên</h1>
+
+<!-- Form tìm kiếm -->
+<form method="get" action="@Url.Action("Index")">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" name="searchString" placeholder="Tìm kiếm sinh viên..." value="@ViewData["SearchString"]" />
+        <button class="btn btn-primary" type="submit">Tìm kiếm</button>
+    </div>
+</form>
+
+<!-- Hiển thị thông báo nếu không có kết quả -->
+@if (!Model.Any())
+{
+    <div class="alert alert-warning" role="alert">
+        Không có sinh viên nào phù hợp với tìm kiếm của bạn.
+    </div>
+}
+
+@if (loaiNguoiDung == "Cố vấn học tập")
+{
+    <div class="button-group">
+        <a asp-action="Create" class="btn btn-success">Tạo mới sinh viên</a>
+        <a asp-controller="LopHocs" asp-action="Index" class="btn btn-secondary">Quản lý lớp</a>
+    </div>
+}
+
+<!-- Bảng hiển thị danh sách sinh viên -->
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MaSinhVien)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NguoiDung)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LopHoc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QueQuan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SoDienThoai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TongTinChi)
+            </th>
+            <th>
+                <span>@Html.DisplayNameFor(model => model.DiemGPA)</span>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.MaSinhVien)</td>
+                <td>@Html.DisplayFor(modelItem => item.NguoiDung.HoTen)</td>
+                <td>@Html.DisplayFor(modelItem => item.LopHoc.TenLop)</td>
+                <td>@Html.DisplayFor(modelItem => item.QueQuan)</td>
+                <td>@Html.DisplayFor(modelItem => item.SoDienThoai)</td>
+                <td>@Html.DisplayFor(modelItem => item.TongTinChi)</td>
+                <td>@item.DiemGPA</td>
+                <td>
+                    <div class="action-box">
+                        <a asp-action="Edit" asp-route-id="@item.MaSinhVien" class="btn btn-primary @(loaiNguoiDung == "Sinh viên" ? "disabled" : "")">Sửa</a>
+                        <a asp-action="Details" asp-route-id="@item.MaSinhVien" class="btn btn-info @(loaiNguoiDung == "Sinh viên" ? "disabled" : "")">Chi tiết</a>
+                        <a asp-action="Delete" asp-route-id="@item.MaSinhVien" class="btn btn-danger @(loaiNguoiDung == "Sinh viên" ? "disabled" : "")">Xóa</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    /* CSS cho phần tiêu đề với icon sắp xếp */
+    th a {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        text-decoration: none;
+        color: inherit;
+    }
+
+        th a:hover {
+            color: #007bff;
+        }
+
+        th a i {
+            font-size: 0.8em;
+        }
+
+    /* CSS cho các nút hành động */
+    .action-box {
+        display: flex;
+        gap: 10px;
+    }
+
+        .action-box .btn {
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: white;
+        }
+
+    .btn-primary {
+        background-color: #007bff;
+    }
+
+    .btn-info {
+        background-color: #17a2b8;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+    }
+
+    .btn:hover {
+        opacity: 0.8;
+    }
+
+    /* Tạo hiệu ứng cho nút bị vô hiệu hóa */
+    .btn.disabled,
+    .btn.disabled:hover {
+        pointer-events: none;
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+
+    /* CSS cho nhóm nút Tạo mới sinh viên và Quản lý lớp */
+    .button-group {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+        .button-group a {
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+            .button-group a:first-child {
+                background-color: #28a745;
+            }
+
+                .button-group a:first-child:hover {
+                    background-color: #218838;
+                }
+
+            .button-group a:last-child {
+                background-color: #6c757d;
+            }
+
+                .button-group a:last-child:hover {
+                    background-color: #5a6268;
+                }
+
+</style>

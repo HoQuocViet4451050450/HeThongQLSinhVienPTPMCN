@@ -1,0 +1,39 @@
+﻿@model ASPSTUDENT4.Models.NguoiDung
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <!-- Sử dụng Layout -->
+    ViewData["Title"] = "Chi tiết tài khoản";
+}
+
+<h1 class="text-center my-4">Chi tiết tài khoản</h1>
+<hr />
+
+<div class="card shadow mb-4">
+    <div class="card-header bg-primary text-white">
+        <h4 class="mb-0">Thông tin người dùng</h4>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3 fw-bold">Họ tên</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.HoTen)</dd>
+
+            <dt class="col-sm-3 fw-bold">Tên đăng nhập</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.TenDangNhap)</dd>
+
+            <dt class="col-sm-3 fw-bold">Mật khẩu</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.MatKhau)</dd>
+
+            <dt class="col-sm-3 fw-bold">Loại người dùng</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.LoaiNguoiDung)</dd>
+
+            <dt class="col-sm-3 fw-bold">Ngày tạo</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.NgayTao)</dd>
+        </dl>
+    </div>
+</div>
+
+<div class="d-flex justify-content-between">
+    <a asp-action="Edit" asp-route-id="@Model?.MaNguoiDung" class="btn btn-warning">Chỉnh sửa</a>
+    <a asp-action="Index" class="btn btn-secondary">Quay lại danh sách</a>
+</div>

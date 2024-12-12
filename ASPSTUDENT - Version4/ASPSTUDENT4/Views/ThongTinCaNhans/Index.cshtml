@@ -1,0 +1,23 @@
+﻿@model ASPSTUDENT4.Models.NguoiDung
+
+@{
+    ViewData["Title"] = "Thông tin cá nhân";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">@Model.HoTen</h5>
+        <p><strong>Tên đăng nhập:</strong> @Model.TenDangNhap</p>
+        <p><strong>Mật khẩu:</strong> @Model.MatKhau</p>
+        <p><strong>Loại người dùng:</strong> @Model.LoaiNguoiDung</p>
+        <p><strong>Ngày tạo:</strong> @Model.NgayTao?.ToString("dd/MM/yyyy")</p>
+    </div>
+</div>

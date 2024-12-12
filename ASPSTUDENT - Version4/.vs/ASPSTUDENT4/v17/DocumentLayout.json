@@ -1,0 +1,499 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\views\\lophocs\\locsinhvientheolop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\views\\lophocs\\locsinhvientheolop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\views\\lophocs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\views\\lophocs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\views\\lophocs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\views\\lophocs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\controllers\\lophocscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\controllers\\lophocscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\views\\lophocs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\views\\lophocs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\views\\lophocs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\views\\lophocs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\views\\lophocs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\views\\lophocs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\views\\nguoidungs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\views\\nguoidungs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\views\\nguoidungs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\views\\nguoidungs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\views\\nguoidungs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\views\\nguoidungs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\views\\nguoidungs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\views\\nguoidungs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\views\\nguoidungs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\views\\nguoidungs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\views\\baidangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\views\\baidangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\models\\binhluan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\models\\binhluan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\models\\baidang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\models\\baidang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\controllers\\baidangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\controllers\\baidangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\data\\aspstudentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\data\\aspstudentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\controllers\\chitietsinhvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\controllers\\chitietsinhvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\views\\chitietsinhviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\views\\chitietsinhviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\models\\chitietsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\models\\chitietsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/LAPTOP_7MV6L980/HeThongHoTroHocTapV2/True/SqlTable/dbo.NguoiDung.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|c:\\users\\acer\\downloads\\aspstudent - version4\\aspstudent4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C4DCBA5-16D8-4AF4-83C9-22E666D9CEA2}|ASPSTUDENT4\\ASPSTUDENT4.csproj|solutionrelative:aspstudent4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{9b96d899-3214-4b6f-a8b9-182d4bc2f76f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NguoiDungsController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Controllers\\NguoiDungsController.cs",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Controllers\\NguoiDungsController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Controllers\\NguoiDungsController.cs",
+              "RelativeToolTip": "ASPSTUDENT4\\Controllers\\NguoiDungsController.cs",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAQwLAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:53:49.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LopHocsController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Controllers\\LopHocsController.cs",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Controllers\\LopHocsController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Controllers\\LopHocsController.cs",
+              "RelativeToolTip": "ASPSTUDENT4\\Controllers\\LopHocsController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAwK8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T17:46:10.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\LopHocs\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Views\\LopHocs\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\LopHocs\\Create.cshtml",
+              "RelativeToolTip": "ASPSTUDENT4\\Views\\LopHocs\\Create.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvyEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T22:36:51.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\LopHocs\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Views\\LopHocs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\LopHocs\\Index.cshtml",
+              "RelativeToolTip": "ASPSTUDENT4\\Views\\LopHocs\\Index.cshtml",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAwEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T22:20:23.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LocSinhVienTheoLop.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\LopHocs\\LocSinhVienTheoLop.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Views\\LopHocs\\LocSinhVienTheoLop.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\LopHocs\\LocSinhVienTheoLop.cshtml",
+              "RelativeToolTip": "ASPSTUDENT4\\Views\\LopHocs\\LocSinhVienTheoLop.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T22:16:51.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\NguoiDungs\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Views\\NguoiDungs\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\NguoiDungs\\Delete.cshtml",
+              "RelativeToolTip": "ASPSTUDENT4\\Views\\NguoiDungs\\Delete.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T20:29:11.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ASPSTUDENT4\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T20:33:59.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\LopHocs\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Views\\LopHocs\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\LopHocs\\Delete.cshtml",
+              "RelativeToolTip": "ASPSTUDENT4\\Views\\LopHocs\\Delete.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvxsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T22:17:55.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\LopHocs\\Details.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Views\\LopHocs\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\LopHocs\\Details.cshtml",
+              "RelativeToolTip": "ASPSTUDENT4\\Views\\LopHocs\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T22:18:24.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\LopHocs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Views\\LopHocs\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\LopHocs\\Edit.cshtml",
+              "RelativeToolTip": "ASPSTUDENT4\\Views\\LopHocs\\Edit.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T22:18:40.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\NguoiDungs\\Details.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Views\\NguoiDungs\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\NguoiDungs\\Details.cshtml",
+              "RelativeToolTip": "ASPSTUDENT4\\Views\\NguoiDungs\\Details.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAQwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T20:28:10.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\NguoiDungs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Views\\NguoiDungs\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\NguoiDungs\\Edit.cshtml",
+              "RelativeToolTip": "ASPSTUDENT4\\Views\\NguoiDungs\\Edit.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAQwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T20:27:00.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\NguoiDungs\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Views\\NguoiDungs\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\NguoiDungs\\Create.cshtml",
+              "RelativeToolTip": "ASPSTUDENT4\\Views\\NguoiDungs\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T20:24:39.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ASPSTUDENT4\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-11T20:08:25.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ASPSTUDENT4\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T20:04:14.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\NguoiDungs\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Views\\NguoiDungs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\NguoiDungs\\Index.cshtml",
+              "RelativeToolTip": "ASPSTUDENT4\\Views\\NguoiDungs\\Index.cshtml",
+              "ViewState": "AQIAADgAAAAAAAAAAAAQwEEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T19:55:41.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NguoiDung.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Models\\NguoiDung.cs",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Models\\NguoiDung.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Models\\NguoiDung.cs",
+              "RelativeToolTip": "ASPSTUDENT4\\Models\\NguoiDung.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:55:15.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BinhLuan.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Models\\BinhLuan.cs",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Models\\BinhLuan.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Models\\BinhLuan.cs",
+              "RelativeToolTip": "ASPSTUDENT4\\Models\\BinhLuan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:51:18.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaiDang.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Models\\BaiDang.cs",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Models\\BaiDang.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Models\\BaiDang.cs",
+              "RelativeToolTip": "ASPSTUDENT4\\Models\\BaiDang.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwA8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:48:45.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\BaiDangs\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Views\\BaiDangs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\BaiDangs\\Index.cshtml",
+              "RelativeToolTip": "ASPSTUDENT4\\Views\\BaiDangs\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAkwB8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T19:31:38.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\ChiTietSinhViens\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Views\\ChiTietSinhViens\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Views\\ChiTietSinhViens\\Index.cshtml",
+              "RelativeToolTip": "ASPSTUDENT4\\Views\\ChiTietSinhViens\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T18:06:25.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChiTietSinhViensController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Controllers\\ChiTietSinhViensController.cs",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Controllers\\ChiTietSinhViensController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Controllers\\ChiTietSinhViensController.cs",
+              "RelativeToolTip": "ASPSTUDENT4\\Controllers\\ChiTietSinhViensController.cs",
+              "ViewState": "AQIAALAAAAAAAAAAAAAAAMEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:04:53.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BaiDangsController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Controllers\\BaiDangsController.cs",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Controllers\\BaiDangsController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Controllers\\BaiDangsController.cs",
+              "RelativeToolTip": "ASPSTUDENT4\\Controllers\\BaiDangsController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAASwDMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:01:11.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ASPSTUDENTContext.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Data\\ASPSTUDENTContext.cs",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Data\\ASPSTUDENTContext.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Data\\ASPSTUDENTContext.cs",
+              "RelativeToolTip": "ASPSTUDENT4\\Data\\ASPSTUDENTContext.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:03:55.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\appsettings.json",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\appsettings.json",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\appsettings.json",
+              "RelativeToolTip": "ASPSTUDENT4\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-11T17:35:51.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ChiTietSinhVien.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Models\\ChiTietSinhVien.cs",
+              "RelativeDocumentMoniker": "ASPSTUDENT4\\Models\\ChiTietSinhVien.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASPSTUDENT - Version4\\ASPSTUDENT4\\Models\\ChiTietSinhVien.cs",
+              "RelativeToolTip": "ASPSTUDENT4\\Models\\ChiTietSinhVien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:03:33.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "dbo.NguoiDung [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/LAPTOP_7MV6L980/HeThongHoTroHocTapV2/True/SqlTable/dbo.NguoiDung.sql",
+              "ToolTip": "dbo.NguoiDung [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-11T18:23:30.601Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 102,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

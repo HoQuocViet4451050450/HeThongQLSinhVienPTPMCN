@@ -1,0 +1,149 @@
+﻿@{
+    Layout = null;  // Disable layout for this page
+    ViewData["Title"] = "Đăng Nhập";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ASPSTUDENT</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <style>
+        /* CSS cho trang đăng nhập */
+        body {
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: flex-start; /* Căn chỉnh sang trái */
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Bên trái với ảnh */
+        .image-container {
+            flex: 0 0 60%; /* Ảnh chiếm 60% chiều rộng màn hình */
+            background-image: url('https://tuyensinhhuongnghiep.vn/upload/images/2023/06/19/truong-dai-hoc-quy-nhon.jpg'); /* Thêm đường dẫn ảnh tại đây */
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+        }
+
+        /* Bên phải: Khung đăng nhập */
+        .login-container {
+            width: 400px; /* Chiều rộng của khung đăng nhập */
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .login-container h2 {
+                text-align: center;
+                color: #333;
+                margin-bottom: 30px;
+            }
+
+        .form-group label {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .form-control {
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            font-size: 1em;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+            .form-control:focus {
+                border-color: #007bff;
+                box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+            }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.1em;
+            border-radius: 5px;
+            width: 100%;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+            }
+
+        .alert {
+            margin-top: 15px;
+            text-align: center;
+            font-size: 1.1em;
+            padding: 10px;
+        }
+
+        .alert-danger {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+
+        /* Đảm bảo form đăng nhập nằm bên phải */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Bên trái: Tấm ảnh -->
+        <div class="image-container"></div>
+
+        <!-- Bên phải: Khung đăng nhập -->
+        <div class="login-container">
+            <div class="login-form">
+                <h2>@ViewData["Title"]</h2>
+
+                <form method="post" asp-action="Login">
+                    <div class="form-group">
+                        <label for="tenDangNhap">Tên đăng nhập</label>
+                        <input type="text" class="form-control" id="tenDangNhap" name="tenDangNhap" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="matKhau">Mật khẩu</label>
+                        <input type="password" class="form-control" id="matKhau" name="matKhau" required />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Đăng nhập</button>
+                </form>
+
+                @if (TempData["ErrorMessage"] != null)
+                {
+                    <div class="alert alert-danger mt-3">
+                        @TempData["ErrorMessage"]
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

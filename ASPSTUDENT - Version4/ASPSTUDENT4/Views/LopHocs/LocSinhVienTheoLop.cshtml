@@ -1,0 +1,39 @@
+﻿@model IEnumerable<ASPSTUDENT4.Models.ChiTietSinhVien>
+
+@{
+    ViewData["Title"] = "Danh sách sinh viên theo lớp";
+}
+
+<div class="container mt-5">
+    <h1 class="mb-4 text-center">Danh sách sinh viên lớp @Model.FirstOrDefault()?.MaLop</h1>
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <!-- Bảng danh sách sinh viên -->
+    <table class="table table-striped table-bordered">
+        <thead class="table-light">
+            <tr>
+                <th>Họ tên</th>
+                <th>Tên đăng nhập</th>
+                <th>Ngày tạo</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.NguoiDung.HoTen</td>
+                    <td>@item.NguoiDung.TenDangNhap</td>
+                    <td>@item.NguoiDung.NgayTao?.ToString("dd/MM/yyyy")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

@@ -1,0 +1,67 @@
+﻿@model IEnumerable<ASPSTUDENT4.Models.LopHoc>
+
+@{
+    ViewData["Title"] = "Danh sách lớp học";
+}
+
+<div class="container mt-5">
+    <h1 class="mb-4 text-center">Danh sách lớp học</h1>
+
+    <!-- Hiển thị thông báo thành công hoặc lỗi -->
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    <!-- Nút thêm lớp học -->
+    <div class="text-right mb-3">
+        <a asp-action="Create" class="btn btn-success">Thêm lớp học</a>
+    </div>
+
+    <!-- Form lọc sinh viên theo lớp -->
+    <div class="mb-3">
+        <form method="get" asp-action="LocSinhVienTheoLop">
+            <label for="maLop">Chọn lớp:</label>
+            <select name="maLop" id="maLop" class="form-control" required>
+                <option value="">-- Chọn lớp học --</option>
+                @foreach (var lop in Model)
+                {
+                    <option value="@lop.MaLop">@lop.TenLop</option>
+                }
+            </select>
+            <button type="submit" class="btn btn-primary mt-3">Lọc sinh viên</button>
+        </form>
+    </div>
+
+    <!-- Hiển thị danh sách lớp học -->
+    <table class="table table-striped table-bordered">
+        <thead class="table-light">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.MaLop)</th>
+                <th>@Html.DisplayNameFor(model => model.TenLop)</th>
+                <th class="text-center">Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.MaLop)</td>
+                    <td>@Html.DisplayFor(modelItem => item.TenLop)</td>
+                    <td class="text-center">
+                        <a class="btn btn-info btn-sm" asp-action="Edit" asp-route-id="@item.MaLop">Sửa</a>
+                        <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.MaLop">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
