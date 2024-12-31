@@ -1,5 +1,5 @@
-﻿using ASPSTUDENT4.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using ASPSTUDENT4.Models;
 
 namespace ASPSTUDENT4.Data
 {
@@ -12,6 +12,9 @@ namespace ASPSTUDENT4.Data
         public DbSet<BinhLuan> BinhLuans { get; set; }
         public DbSet<LopHoc> LopHocs { get; set; }
         public DbSet<ChiTietSinhVien> ChiTietSinhViens { get; set; }
+        public DbSet<Student> Students { get; set; }  // DbSet cho sinh viên
+        public DbSet<Class> Classes { get; set; }     // DbSet cho lớp học
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -58,7 +61,12 @@ namespace ASPSTUDENT4.Data
                 .HasForeignKey(c => c.MaLop)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // Set default value for NgayTao columns
+            // Đặt precision và scale cho thuộc tính 'DiemGPA' trong 'ChiTietSinhVien'
+            modelBuilder.Entity<ChiTietSinhVien>()
+                .Property(c => c.DiemGPA)
+                .HasPrecision(5, 2);  // Precision = 5, Scale = 2
+
+            // Cấu hình ngày tạo mặc định
             modelBuilder.Entity<NguoiDung>()
                 .Property(n => n.NgayTao)
                 .HasDefaultValueSql("GETDATE()");

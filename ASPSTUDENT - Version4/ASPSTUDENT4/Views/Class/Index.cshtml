@@ -1,0 +1,31 @@
+﻿@model IEnumerable<ASPSTUDENT4.Models.Class>
+
+@{
+    ViewData["Title"] = "Danh sách lớp học";
+}
+
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Class ID</th>
+                <th>Class Name</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var classItem in Model)
+            {
+                <tr>
+                    <td>@classItem.MaLop</td>
+                    <td>@classItem.TenLop</td>
+                    <td>
+                        <a href="@Url.Action("Details", "Class", new { id = classItem.MaLop })" class="btn btn-info">Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

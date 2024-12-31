@@ -27,12 +27,32 @@
     <!-- Tiêu đề -->
     <h1 class="mb-4 text-center">Danh sách quản lý các tài khoản</h1>
 
-    <!-- Nút tạo mới -->
-    <p class="mb-3">
+    <!-- Form tìm kiếm -->
+    <form method="get" action="@Url.Action("Index")">
+        <div class="input-group mb-3">
+            <!-- Lấy giá trị từ ViewData để hiển thị lại trong ô input -->
+            <input type="text" class="form-control" name="searchString"
+                   placeholder="Tìm kiếm theo tên, tài khoản hoặc loại người dùng"
+                   value="@ViewData["SearchString"]" />
+            <button class="btn btn-outline-secondary" type="submit">
+                <i class="bi bi-search"></i> Tìm kiếm
+            </button>
+        </div>
+    </form>
+
+
+    <!-- Các nút chức năng -->
+    <div class="mb-3 d-flex justify-content-between">
+        <!-- Nút Tạo mới -->
         <a class="btn btn-primary" asp-action="Create">
             <i class="bi bi-plus-circle"></i> Tạo mới tài khoản
         </a>
-    </p>
+
+        <!-- Nút Xuất dữ liệu -->
+        <a asp-action="ExportData" asp-controller="NguoiDungs" class="btn btn-success">
+            <i class="bi bi-file-earmark-excel"></i> Xuất dữ liệu ra Excel
+        </a>
+    </div>
 
     <!-- Bảng danh sách -->
     <table class="table table-striped table-bordered table-hover">
@@ -58,16 +78,22 @@
                     <td>@Html.DisplayFor(modelItem => item.LoaiNguoiDung)</td>
                     <td>@Html.DisplayFor(modelItem => item.NgayTao)</td>
                     <td class="text-center">
-                        <a class="btn btn-info btn-sm" asp-action="Edit" asp-route-id="@item.MaNguoiDung">
-                            <i class="bi bi-pencil-square"></i> Chỉnh sửa
-                        </a>
-                        <a class="btn btn-secondary btn-sm" asp-action="Details" asp-route-id="@item.MaNguoiDung">
-                            <i class="bi bi-eye"></i> Chi tiết
-                        </a>
-                        <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.MaNguoiDung">
-                            <i class="bi bi-trash"></i> Xóa
-                        </a>
+                        <div class="d-flex justify-content-center gap-2">
+                            <!-- Nút Chỉnh sửa -->
+                            <a class="btn btn-info btn-sm" asp-action="Edit" asp-route-id="@item.MaNguoiDung">
+                                <i class="bi bi-pencil-square"></i> Chỉnh sửa
+                            </a>
+                            <!-- Nút Chi tiết -->
+                            <a class="btn btn-secondary btn-sm" asp-action="Details" asp-route-id="@item.MaNguoiDung">
+                                <i class="bi bi-eye"></i> Chi tiết
+                            </a>
+                            <!-- Nút Xóa -->
+                            <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.MaNguoiDung">
+                                <i class="bi bi-trash"></i> Xóa
+                            </a>
+                        </div>
                     </td>
+
                 </tr>
             }
         </tbody>

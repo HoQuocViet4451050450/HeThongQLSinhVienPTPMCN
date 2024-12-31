@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿
+using System.ComponentModel.DataAnnotations;
 
 namespace ASPSTUDENT4.Models
 {
@@ -16,5 +17,6 @@ namespace ASPSTUDENT4.Models
         // Navigation properties
         public NguoiDung NguoiDung { get; set; }
         public LopHoc LopHoc { get; set; }
+
     }
 }

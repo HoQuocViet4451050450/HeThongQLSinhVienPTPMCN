@@ -32,6 +32,9 @@
     <div class="button-group">
         <a asp-action="Create" class="btn btn-success">Tạo mới sinh viên</a>
         <a asp-controller="LopHocs" asp-action="Index" class="btn btn-secondary">Quản lý lớp</a>
+        <a asp-action="ExportToExcel" asp-controller="ChiTietSinhViens" class="btn btn-success">
+            <i class="bi bi-file-earmark-excel"></i> Xuất dữ liệu ra Excel
+        </a>
     </div>
 }
 
@@ -43,10 +46,10 @@
                 @Html.DisplayNameFor(model => model.MaSinhVien)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.NguoiDung)
+                @Html.DisplayNameFor(model => model.NguoiDung.HoTen)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.LopHoc)
+                @Html.DisplayNameFor(model => model.LopHoc.TenLop)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.QueQuan)
@@ -58,9 +61,9 @@
                 @Html.DisplayNameFor(model => model.TongTinChi)
             </th>
             <th>
-                <span>@Html.DisplayNameFor(model => model.DiemGPA)</span>
+                @Html.DisplayNameFor(model => model.DiemGPA)
             </th>
-            <th></th>
+            <th>Hành động</th>
         </tr>
     </thead>
     <tbody>
@@ -172,5 +175,4 @@
                 .button-group a:last-child:hover {
                     background-color: #5a6268;
                 }
-
 </style>

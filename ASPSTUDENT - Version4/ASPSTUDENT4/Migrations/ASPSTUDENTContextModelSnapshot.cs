@@ -22,7 +22,7 @@ namespace ASPSTUDENT4.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("HeThongHoTroHocTap_Version2_.Models.BaiDang", b =>
+            modelBuilder.Entity("ASPSTUDENT4.Models.BaiDang", b =>
                 {
                     b.Property<int>("MaBaiDang")
                         .ValueGeneratedOnAdd()
@@ -53,7 +53,7 @@ namespace ASPSTUDENT4.Migrations
                     b.ToTable("BaiDangs");
                 });
 
-            modelBuilder.Entity("HeThongHoTroHocTap_Version2_.Models.BinhLuan", b =>
+            modelBuilder.Entity("ASPSTUDENT4.Models.BinhLuan", b =>
                 {
                     b.Property<int>("MaBinhLuan")
                         .ValueGeneratedOnAdd()
@@ -89,13 +89,18 @@ namespace ASPSTUDENT4.Migrations
                     b.ToTable("BinhLuans");
                 });
 
-            modelBuilder.Entity("HeThongHoTroHocTap_Version2_.Models.ChiTietSinhVien", b =>
+            modelBuilder.Entity("ASPSTUDENT4.Models.ChiTietSinhVien", b =>
                 {
                     b.Property<int>("MaSinhVien")
                         .HasColumnType("int");
 
                     b.Property<decimal>("DiemGPA")
-                        .HasColumnType("decimal(18,2)");
+                        .HasPrecision(5, 2)
+                        .HasColumnType("decimal(5,2)");
+
+                    b.Property<string>("HoTen")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("MaLop")
                         .HasColumnType("int");
@@ -118,7 +123,24 @@ namespace ASPSTUDENT4.Migrations
                     b.ToTable("ChiTietSinhViens");
                 });
 
-            modelBuilder.Entity("HeThongHoTroHocTap_Version2_.Models.LopHoc", b =>
+            modelBuilder.Entity("ASPSTUDENT4.Models.Class", b =>
+                {
+                    b.Property<int>("MaLop")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MaLop"));
+
+                    b.Property<string>("TenLop")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("MaLop");
+
+                    b.ToTable("Classes");
+                });
+
+            modelBuilder.Entity("ASPSTUDENT4.Models.LopHoc", b =>
                 {
                     b.Property<int>("MaLop")
                         .ValueGeneratedOnAdd()
@@ -135,7 +157,7 @@ namespace ASPSTUDENT4.Migrations
                     b.ToTable("LopHocs");
                 });
 
-            modelBuilder.Entity("HeThongHoTroHocTap_Version2_.Models.NguoiDung", b =>
+            modelBuilder.Entity("ASPSTUDENT4.Models.NguoiDung", b =>
                 {
                     b.Property<int>("MaNguoiDung")
                         .ValueGeneratedOnAdd()
@@ -169,9 +191,47 @@ namespace ASPSTUDENT4.Migrations
                     b.ToTable("NguoiDungs");
                 });
 
-            modelBuilder.Entity("HeThongHoTroHocTap_Version2_.Models.BaiDang", b =>
+            modelBuilder.Entity("ASPSTUDENT4.Models.Student", b =>
                 {
-                    b.HasOne("HeThongHoTroHocTap_Version2_.Models.NguoiDung", "NguoiDung")
+                    b.Property<int>("MaSV")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MaSV"));
+
+                    b.Property<int>("ClassMaLop")
+                        .HasColumnType("int");
+
+                    b.Property<string>("HoTen")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("LopHocMaLop")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MaLop")
+                        .HasColumnType("int");
+
+                    b.Property<string>("MatKhau")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TenDangNhap")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("MaSV");
+
+                    b.HasIndex("ClassMaLop");
+
+                    b.HasIndex("LopHocMaLop");
+
+                    b.ToTable("Students");
+                });
+
+            modelBuilder.Entity("ASPSTUDENT4.Models.BaiDang", b =>
+                {
+                    b.HasOne("ASPSTUDENT4.Models.NguoiDung", "NguoiDung")
                         .WithMany("BaiDangs")
                         .HasForeignKey("MaNguoiDung")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -180,15 +240,15 @@ namespace ASPSTUDENT4.Migrations
                     b.Navigation("NguoiDung");
                 });
 
-            modelBuilder.Entity("HeThongHoTroHocTap_Version2_.Models.BinhLuan", b =>
+            modelBuilder.Entity("ASPSTUDENT4.Models.BinhLuan", b =>
                 {
-                    b.HasOne("HeThongHoTroHocTap_Version2_.Models.BaiDang", "BaiDang")
+                    b.HasOne("ASPSTUDENT4.Models.BaiDang", "BaiDang")
                         .WithMany("BinhLuans")
                         .HasForeignKey("MaBaiDang")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("HeThongHoTroHocTap_Version2_.Models.NguoiDung", "NguoiDung")
+                    b.HasOne("ASPSTUDENT4.Models.NguoiDung", "NguoiDung")
                         .WithMany("BinhLuans")
                         .HasForeignKey("MaNguoiDung")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -199,17 +259,17 @@ namespace ASPSTUDENT4.Migrations
                     b.Navigation("NguoiDung");
                 });
 
-            modelBuilder.Entity("HeThongHoTroHocTap_Version2_.Models.ChiTietSinhVien", b =>
+            modelBuilder.Entity("ASPSTUDENT4.Models.ChiTietSinhVien", b =>
                 {
-                    b.HasOne("HeThongHoTroHocTap_Version2_.Models.LopHoc", "LopHoc")
+                    b.HasOne("ASPSTUDENT4.Models.LopHoc", "LopHoc")
                         .WithMany("ChiTietSinhViens")
                         .HasForeignKey("MaLop")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("HeThongHoTroHocTap_Version2_.Models.NguoiDung", "NguoiDung")
+                    b.HasOne("ASPSTUDENT4.Models.NguoiDung", "NguoiDung")
                         .WithOne("ChiTietSinhVien")
-                        .HasForeignKey("HeThongHoTroHocTap_Version2_.Models.ChiTietSinhVien", "MaSinhVien")
+                        .HasForeignKey("ASPSTUDENT4.Models.ChiTietSinhVien", "MaSinhVien")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
@@ -218,17 +278,36 @@ namespace ASPSTUDENT4.Migrations
                     b.Navigation("NguoiDung");
                 });
 
-            modelBuilder.Entity("HeThongHoTroHocTap_Version2_.Models.BaiDang", b =>
+            modelBuilder.Entity("ASPSTUDENT4.Models.Student", b =>
+                {
+                    b.HasOne("ASPSTUDENT4.Models.Class", "Class")
+                        .WithMany()
+                        .HasForeignKey("ClassMaLop")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ASPSTUDENT4.Models.Class", "LopHoc")
+                        .WithMany()
+                        .HasForeignKey("LopHocMaLop")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Class");
+
+                    b.Navigation("LopHoc");
+                });
+
+            modelBuilder.Entity("ASPSTUDENT4.Models.BaiDang", b =>
                 {
                     b.Navigation("BinhLuans");
                 });
 
-            modelBuilder.Entity("HeThongHoTroHocTap_Version2_.Models.LopHoc", b =>
+            modelBuilder.Entity("ASPSTUDENT4.Models.LopHoc", b =>
                 {
                     b.Navigation("ChiTietSinhViens");
                 });
 
-            modelBuilder.Entity("HeThongHoTroHocTap_Version2_.Models.NguoiDung", b =>
+            modelBuilder.Entity("ASPSTUDENT4.Models.NguoiDung", b =>
                 {
                     b.Navigation("BaiDangs");
 
